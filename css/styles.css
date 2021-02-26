@@ -1,0 +1,123 @@
+/* Основной цвет шрифта #212121 */
+/* Дополнительный цвет шрифта #757575 */
+/* Акцент обводки #2196F3 */
+/* Белая шапка  #FFFFFF */
+/* 1 - фон #E5E5E5 */
+/* 2 - фон #F5F4FA */
+/* 3 - подвал #2F303A */
+/* Нижняя информация rgba(255, 255, 255, 0.6);*/
+
+/* Убираем подчёркивание */
+a {
+  text-decoration: none;
+}
+
+/* убрал точки */
+ul {
+  list-style: none;
+}
+
+/* Убрал заголовок */
+h1 {
+  display: none;
+}
+
+/* фон боди */
+.page {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+/* Лого */
+
+.web {
+  color: #2196f3;
+}
+/* Шапка сайта */
+.studio {
+  color: #212121;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/*  Информация */
+.auth-nav .link {
+  color: #757575;
+}
+.auth-nav .link:hover {
+  color: #2196f3;
+}
+
+/* <!-- Место для банера */
+.banner {
+  color: #757575;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Описание их услуг */
+
+.section {
+  color: #212121;
+}
+.section-title {
+  color: #757575;
+}
+
+/* <!-- Секция с занятиями --> */
+
+.working {
+  color: #212121;
+}
+
+/* Описание команды */
+
+.team {
+  color: #212121;
+}
+
+.name {
+  color: #212121;
+}
+
+.work {
+  color: #757575;
+}
+
+/* Стили для портфолио */
+
+.Main-Description {
+  color: #212121;
+}
+
+.Additional-description {
+  color: #757575;
+}
+
+/* Настройка подвала */
+.web-basement {
+  color: #2196f3;
+}
+.studio-basement {
+  color: #212121;
+}
+
+/* не работает???????? */
+.address-nav {
+  color: #ffffff;
+}
+
+.address-site {
+  color: #757575;
+}
+.address-nomber {
+  color: #757575;
+}
