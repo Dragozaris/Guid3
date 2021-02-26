@@ -6,7 +6,6 @@
 /* 2 - фон #F5F4FA */
 /* 3 - подвал #2F303A */
 /* Нижняя информация rgba(255, 255, 255, 0.6);*/
-
 * {
   padding: 0;
   margin: 0;
@@ -90,10 +89,17 @@ h6 {
 
 /* фон боди */
 .page {
-  background-color: #ffffff;
+  background-color: #e6dcdce1;
   color: #212121;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  outline: 2px solid tomato;
+  background-color: thistle;
+}
 /* Лого */
 
 .web {
@@ -122,10 +128,21 @@ h6 {
 
 /* <!-- Место для банера */
 .banner {
-  color: #757575;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 100px;
+  background-color: tomato;
 }
 
 .button {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
   background-color: #2196f3;
 }
