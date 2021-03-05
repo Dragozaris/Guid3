@@ -115,6 +115,7 @@ h6 {
 }
 .site-nav li {
   outline: 1px solid red;
+  margin-left: 53px;
 }
 
 /* Шапка сайта */
@@ -133,6 +134,13 @@ h6 {
 /*  Информация */
 .auth-nav .link {
   color: #757575;
+}
+.auth-nav {
+  display: flex;
+  margin-left: 333px;
+}
+.auth-nav li {
+  margin-left: 53px;
 }
 .auth-nav .link:hover {
   color: #2196f3;
