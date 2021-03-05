@@ -12,12 +12,13 @@
   border: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 :focus,
@@ -94,20 +95,31 @@ h6 {
 }
 
 .container {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1400px;
+  width: 1200px;
   outline: 2px solid tomato;
-  background-color: thistle;
 }
+
 /* Лого */
 
 .web {
   color: #2196f3;
+
+  margin-right: 95px;
 }
-/* Шапка сайта */
+
 .studio {
   color: #212121;
+}
+.site-nav li {
+  outline: 1px solid red;
+}
+
+/* Шапка сайта */
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link {
@@ -128,7 +140,7 @@ h6 {
 
 /* <!-- Место для банера */
 .banner {
-  margin-top: 0;
+  margin-top: 100px;
   margin-bottom: 0;
   margin-left: 100px;
   font-weight: 900;
@@ -136,8 +148,7 @@ h6 {
   line-height: 60px;
   text-align: center;
   color: #fff;
-  margin-bottom: 100px;
-  background-color: tomato;
+  margin-top: 100px;
 }
 
 .button {
