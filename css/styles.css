@@ -198,9 +198,11 @@ h6 {
 }
 /* Описание их услуг */
 
-.container_services {
+.banner-services {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 100px;
+  outline: 2px solid tomato;
 }
 
 .section {
@@ -213,17 +215,36 @@ h6 {
 /* <!-- Секция с занятиями --> */
 
 .working {
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  margin-bottom: 50px;
   color: #212121;
+  outline: 2px solid tomato;
+}
+
+.working-teams {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  outline: 2px solid tomato;
 }
 
 /* Описание команды */
 
 .team {
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  margin-bottom: 50px;
   color: #212121;
+  outline: 2px solid tomato;
 }
 
 .name {
   color: #212121;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .work {
