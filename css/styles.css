@@ -298,3 +298,19 @@ h6 {
   justify-content: space-around;
   outline: 2px solid tomato;
 }
+
+.manual {
+  display: flex;
+  justify-content: center;
+  outline: 2px solid tomato;
+}
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 2px solid tomato;
+}
+.block {
+  width: 130px;
+  outline: 2px solid tomato;
+}
