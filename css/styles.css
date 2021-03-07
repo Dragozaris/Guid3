@@ -241,6 +241,11 @@ h6 {
   outline: 2px solid tomato;
 }
 
+.tem-lickwid {
+  display: flex;
+  justify-content: space-around;
+  outline: 2px solid tomato;
+}
 .name {
   color: #212121;
   display: flex;
