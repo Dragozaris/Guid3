@@ -269,8 +269,10 @@ h6 {
 
 /* Настройка подвала */
 
-.basement {
+.footer-basement {
   background-color: #2f303a;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .web-basement {
