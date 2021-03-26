@@ -190,8 +190,12 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 600px;
-  background-color: #212121;
   justify-content: center;
+  background-image: linear-gradient(to right, red, blue);
+  background-image: url('../images/Header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .button {
