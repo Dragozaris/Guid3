@@ -93,10 +93,10 @@ footer {
   background-color: #2f303a;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  width: 1200px;
 }
 .container {
-  max-width: 1600px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -116,7 +116,7 @@ footer {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   outline: 2px solid tomato;
   min-height: 80px;
   background-color: #fff;
@@ -210,6 +210,107 @@ footer {
   margin-top: 50px;
   background-color: #2196f3;
 }
+/* Легкая реклама */
+
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  list-style: none;
+}
+.list-item {
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.list-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  outline: 1px tomato;
+  background-image: url('../images/Group.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  list-style: none;
+}
+.list-items {
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.list-items::before {
+  display: block;
+  content: '';
+  height: 120px;
+  outline: 1px tomato;
+  background-image: url('../images/clock\ 1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.listen {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  list-style: none;
+}
+.listen-item {
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.listen-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  outline: 1px tomato;
+  background-image: url('../images/diagram\ 1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.listens {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.listens-item {
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.listens-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  outline: 1px tomato;
+  background-image: url('../images/astronaut\ 1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Описание их услуг */
 
 .banner-services {
