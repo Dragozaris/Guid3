@@ -106,7 +106,6 @@ footer {
 
 /* фон боди */
 .page {
-  background-color: #e6dcdce1;
   color: #212121;
 }
 
@@ -231,7 +230,7 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ccc;
+  background-color: #f5f4fa;
 }
 .list-item.icon-group::before {
   background-image: url('../images/Group.png');
