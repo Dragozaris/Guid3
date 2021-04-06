@@ -388,7 +388,12 @@ footer {
 }
 
 /* Постоянные клиенты */
-
+.clients {
+  display: flex;
+  justify-content: center;
+  outline: 2px solid tomato;
+  padding-bottom: 94px;
+}
 /* Стили для портфолио */
 
 .Main-Description {
@@ -466,4 +471,5 @@ footer {
 .mailSvgIcon {
   width: 16px;
   height: 12px;
+  fill: blue;
 }
