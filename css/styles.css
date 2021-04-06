@@ -458,3 +458,10 @@ footer {
   width: 370px;
   height: 404px;
 }
+
+/*SVG  */
+
+.mailSvgIcon {
+  width: 16px;
+  height: 12px;
+}
